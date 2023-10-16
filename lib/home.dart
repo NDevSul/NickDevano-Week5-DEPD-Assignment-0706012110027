@@ -67,7 +67,7 @@ class _HomePageState extends State<HomePage> {
                         child: Center(
                           child: Icon(
                             Icons.favorite,
-                            color: isLiked ? Colors.grey : Colors.red,
+                            color: isLiked ? Colors.cyan[400] : Colors.red,
                             size: 25.0,
                           ),
                         ),
